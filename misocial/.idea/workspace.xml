@@ -45,7 +45,7 @@
             <entry file="file://$PROJECT_DIR$/css/adaptive/media.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="312">
-                  <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+                  <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -256,12 +256,12 @@
       <workItem from="1500558835563" duration="1001000" />
       <workItem from="1500883710774" duration="21605000" />
       <workItem from="1501058533321" duration="5515000" />
-      <workItem from="1502893692287" duration="718000" />
+      <workItem from="1502893692287" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37026000" />
+    <option name="totallyTimeSpent" value="37258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,7 +597,7 @@
     <entry file="file://$PROJECT_DIR$/css/adaptive/media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
