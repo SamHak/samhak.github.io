@@ -715,7 +715,11 @@ body {
 
 @media screen and (max-width: 1920px) {
   .header__dropdown_btn {
-    display: none; } }
+    display: none; }
+
+  .header__link {
+    font-size: 10px;
+    padding: 0 2px 0 0; } }
 @media screen and (max-width: 1200px) {
   .header__dropdown_btn {
     display: none; }
