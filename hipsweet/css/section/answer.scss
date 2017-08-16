@@ -1,0 +1,33 @@
+.answer{
+  background: url(../img/redBack.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: rem(40px);
+}
+.answer__item{
+  &:hover{
+    cursor: pointer;
+  }
+}
+.answer__title{
+  padding-top: rem(70px);
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.answer__what{
+  color: white;
+  border-bottom: 2px dotted white;
+  display: inline-block;
+  font-size: 22px;
+}
+.answer__key{
+  padding-left: rem(30px);
+  font-size: 15px;
+  height: 0;
+  overflow: hidden;
+  transition: height 5s;
+}
+.answer__key_active{
+  transition: 5s;
+  height: 400px;
+}
