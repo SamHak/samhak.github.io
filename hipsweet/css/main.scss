@@ -1,0 +1,22 @@
+// adjustment variables
+$container-width: 90%;
+$footer-height: 50px;
+
+// colors
+$orange: #fca211;
+$brown: #893213;
+$blue: #5e6186;
+
+// layout
+@import "_misc/font-awesome.scss";
+@import "_misc/fonts.scss";
+@import "_misc/mixins.scss";
+@import "_misc/normalize.scss";
+@import "_misc/adjustment.scss";
+
+// styles
+@import "section/header.scss";
+@import "section/secondBlock.scss";
+@import "section/thirdBlock.scss";
+@import "section/ourTeam.scss";
+@import "section/answer.scss";
