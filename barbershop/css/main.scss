@@ -1,0 +1,19 @@
+// adjustment variables
+$container-width: 90%;
+$footer-height: 150px;
+
+// site colors
+
+//fonts
+@import "font/font.scss";
+
+// layout
+@import "_misc/normalize.scss";
+@import "_misc/adjustment.scss";
+@import "_misc/mixins.scss";
+
+//section
+@import "section/header.scss";
+@import "section/section.scss";
+@import "section/footer.scss";
+@import "section/item.scss";
