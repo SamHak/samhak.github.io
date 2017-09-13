@@ -459,4 +459,21 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   text-align: center; }
 
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 271px;
+    height: 155px; }
+
+  .footer__logo {
+    width: 147px;
+    height: 74px; } }
+@media screen and (max-width: 480px) {
+  .header__logo {
+    width: 261px;
+    height: 145px; }
+
+  .footer__logo {
+    width: 137px;
+    height: 64px; } }
+
 /*# sourceMappingURL=main.css.map */
