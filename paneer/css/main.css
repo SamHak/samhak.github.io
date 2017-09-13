@@ -444,10 +444,7 @@ img {
     height: 100%; }
 
 .footer__block {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 20px; }
+  text-align: center; }
 
 .footer__logo {
   display: inline-block;
