@@ -81,9 +81,17 @@
   .footer__btn{
     margin-bottom: 15px;
   }
+  .header__desc{
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 480px){ //phone
   .footer__btn{
     margin-bottom: 15px;
+  }
+  .header__desc{
+    width: 70%;
+    margin: 0 auto;
   }
 }

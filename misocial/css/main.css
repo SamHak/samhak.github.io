@@ -778,9 +778,17 @@ body {
     display: none; } }
 @media screen and (max-width: 768px) {
   .footer__btn {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+
+  .header__desc {
+    width: 70%;
+    margin: 0 auto; } }
 @media screen and (max-width: 480px) {
   .footer__btn {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+
+  .header__desc {
+    width: 70%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
