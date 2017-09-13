@@ -1,0 +1,17 @@
+// adjustment variables
+$container-width: 90%;
+$footer-height: 50px;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+
+// layout
+@import "_misc/normalize.scss";
+@import "_misc/adjustment.scss";
+@import "_misc/font-awesome.css";
+
+// sections
+@import "section/header.scss";
+
+//media
+@import "adaptive/media.scss";
