@@ -433,8 +433,7 @@ img {
   display: inline-block; }
 
 .header__logo_img {
-  max-width: 100%;
-  max-height: 100%; }
+  max-width: 100%; }
 
 .footer {
   background-color: #2a5c31; }
@@ -456,8 +455,7 @@ img {
   height: 124px; }
 
 .footer__logo_img {
-  max-width: 100%;
-  max-height: 100%; }
+  max-width: 100%; }
 
 .footer__copyright {
   color: #ffffff;
