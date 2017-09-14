@@ -604,6 +604,9 @@ a {
   html {
     font-size: 16px; }
 
+  .first {
+    background-image: url("../img/wrapperOnew.png"); }
+
   .container {
     width: 1200px; } }
 @media screen and (max-width: 1200px) {
