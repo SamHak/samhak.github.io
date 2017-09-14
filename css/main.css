@@ -613,6 +613,10 @@ a {
   html {
     font-size: 16px; }
 
+  .header__logo {
+    width: 12rem;
+    height: 7.4375rem; }
+
   .container {
     width: 970px; } }
 @media screen and (max-width: 992px) {
@@ -638,12 +642,18 @@ a {
   html {
     font-size: 14px; }
 
+  .header__logo {
+    width: 11.375rem;
+    height: 6.8125rem; }
+
   .container {
     width: 480px; } }
 @media screen and (max-width: 480px) {
   html {
     font-size: 12px; }
 
+  width: 10.75rem;
+  height: 6.1875rem;
   .container {
     width: auto; } }
 
