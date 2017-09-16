@@ -532,8 +532,8 @@ a {
   background: url("../img/button.svg") center center no-repeat;
   background-size: contain;
   display: inline-block;
-  width: 5.6875rem;
-  height: 7.9375rem;
+  width: 3.1875rem;
+  height: 5.4375rem;
   border: none;
   z-index: -1;
   transition: .5s; }
