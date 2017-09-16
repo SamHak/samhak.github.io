@@ -431,7 +431,7 @@ body {
   padding: 0 5px; }
   @media screen and (max-width: 1370px) {
     .container {
-      min-width: 1200px; } }
+      max-width: 1200px; } }
   @media screen and (max-width: 480px) {
     .container {
       min-width: 1200px; } }
