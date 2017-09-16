@@ -402,7 +402,7 @@ body {
   min-width: 1800px; }
   @media screen and (max-width: 1366px) {
     .wrapper {
-      min-width: 1400px; } }
+      min-width: 1200px; } }
   @media screen and (max-width: 480px) {
     .wrapper {
       min-width: 1200px; } }
@@ -420,7 +420,7 @@ body {
   min-width: 1800px; }
   @media screen and (max-width: 1366px) {
     .footer {
-      min-width: 1400px; } }
+      min-width: 1200px; } }
   @media screen and (max-width: 480px) {
     .footer {
       min-width: 1200px; } }
@@ -431,7 +431,7 @@ body {
   padding: 0 5px; }
   @media screen and (max-width: 1366px) {
     .container {
-      min-width: 1400px; } }
+      min-width: 1200px; } }
   @media screen and (max-width: 480px) {
     .container {
       min-width: 1200px; } }
