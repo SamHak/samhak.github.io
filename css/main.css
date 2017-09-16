@@ -481,7 +481,7 @@ a {
 .languages__item {
   margin-right: 0.5625rem;
   color: #836c54;
-  font-size: 2rem;
+  font-size: 1.5625rem;
   transition: .5s; }
   .languages__item:hover {
     color: #e2cd91; }
@@ -647,7 +647,8 @@ a {
 
 .third {
   background-image: url("../img/wrapperThree.png");
-  background-repeat: repeat;
+  background-repeat: repeat-y;
+  background-size: contain;
   min-height: 60.8125rem;
   padding-top: 2.625rem; }
 
