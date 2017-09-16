@@ -431,10 +431,10 @@ body {
   padding: 0 5px; }
   @media screen and (max-width: 1366px) {
     .container {
-      width: 1000px; } }
+      min-width: 1000px; } }
   @media screen and (max-width: 480px) {
     .container {
-      width: 1200px; } }
+      min-width: 1200px; } }
 
 li {
   list-style-type: none; }
