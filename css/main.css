@@ -453,6 +453,9 @@ a {
   background: url("../img/wrapperOne.png") center center no-repeat;
   background-size: cover;
   min-height: 36.625rem; }
+  @media screen and (max-width: 1370px) {
+    .first {
+      min-height: 450px; } }
 
 .header {
   font-family: a_PresentumNr, Arial; }
@@ -474,6 +477,9 @@ a {
   transition: .5s; }
   .languages__item:hover {
     color: #e2cd91; }
+  @media screen and (max-width: 1370px) {
+    .languages__item {
+      font-size: 18px; } }
 
 .header__middle {
   display: flex;
@@ -511,8 +517,8 @@ a {
       height: 250px; } }
   @media screen and (max-width: 768px) {
     .gallery__item {
-      width: 380px;
-      height: 186px; } }
+      width: 305px;
+      height: 167px; } }
 
 @keyframes gallery {
   0% {
@@ -549,6 +555,10 @@ a {
     .button {
       width: 1.3125rem;
       height: 3.5625rem; } }
+  @media screen and (max-width: 480px) {
+    .button {
+      width: 12px;
+      height: 2.3125rem; } }
 
 .undo {
   left: 100%;
