@@ -407,11 +407,18 @@ body {
   display: block;
   height: 193px;
   overflow: hidden; }
+  @media screen and (max-width: 480px) {
+    .wrapper:after {
+      height: 140px; } }
 
 .footer {
   position: relative;
   height: 193px;
   margin-top: -193px; }
+  @media screen and (max-width: 480px) {
+    .footer {
+      margin-top: -140px;
+      height: 140px; } }
 
 .container {
   margin: 0 auto;
@@ -502,6 +509,10 @@ a {
     .gallery__item {
       width: 598px;
       height: 250px; } }
+  @media screen and (max-width: 768px) {
+    .gallery__item {
+      width: 380px;
+      height: 186px; } }
 
 @keyframes gallery {
   0% {
@@ -549,6 +560,9 @@ a {
   animation: button-next 4s; }
   .next:active {
     transform: rotate(-180deg) scale(1.2, 1.2); }
+  @media screen and (max-width: 1370px) {
+    .next {
+      right: 105%; } }
 
 @keyframes button-next {
   0% {
@@ -615,6 +629,10 @@ a {
     .product__photo {
       width: 180px;
       height: 180px; } }
+  @media screen and (max-width: 768px) {
+    .product__photo {
+      width: 120px;
+      height: 120px; } }
 
 .product__right {
   text-align: center; }
@@ -626,6 +644,9 @@ a {
   @media screen and (max-width: 1370px) {
     .product__title {
       font-size: 31px; } }
+  @media screen and (max-width: 768px) {
+    .product__title {
+      font-size: 22px; } }
 
 .product__desc {
   font-family: helvetica_condensedregular;
@@ -634,6 +655,9 @@ a {
   @media screen and (max-width: 1370px) {
     .product__desc {
       font-size: 16px; } }
+  @media screen and (max-width: 768px) {
+    .product__desc {
+      font-size: 13px; } }
 
 .product__img {
   max-width: 100%;
@@ -650,7 +674,6 @@ a {
   background-image: url("../img/wrapperThree.png");
   background-repeat: repeat-y;
   background-size: contain;
-  min-height: 60.8125rem;
   padding-top: 2.625rem; }
 
 .footer {
@@ -665,11 +688,22 @@ a {
 .footer__left {
   text-align: center;
   margin-top: 0.6875rem; }
+  @media screen and (max-width: 480px) {
+    .footer__left {
+      font-size: 12px; } }
 
 .footer__logo {
   width: 13.75rem;
   height: 8.4375rem;
   display: inline-block; }
+  @media screen and (max-width: 1370px) {
+    .footer__logo {
+      width: 10.625rem;
+      height: 5.3125rem; } }
+  @media screen and (max-width: 480px) {
+    .footer__logo {
+      width: 9.0625rem;
+      height: 3.75rem; } }
 
 .footer__logo_img {
   display: inline-block;
@@ -680,6 +714,9 @@ a {
 
 .footer__middle {
   margin-top: 24px; }
+  @media screen and (max-width: 480px) {
+    .footer__middle {
+      font-size: 14px; } }
 
 .footer__list {
   font-family: helvetica_condensedbold;
@@ -719,5 +756,11 @@ a {
   transition: .5s; }
   .footer__facebook:hover {
     box-shadow: 0 0 2px 2px #ffffff; }
+  @media screen and (max-width: 480px) {
+    .footer__facebook {
+      width: 2.125rem;
+      height: 2.125rem;
+      line-height: 34px;
+      font-size: 1.375rem; } }
 
 /*# sourceMappingURL=main.css.map */
