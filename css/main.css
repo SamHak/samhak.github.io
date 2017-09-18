@@ -462,9 +462,12 @@ a {
 
 .header__top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding-top: 1.5rem; }
+  @media screen and (max-width: 1370px) {
+    .header__top {
+      padding-left: 14px; } }
 
 .languages__list {
   display: flex;
