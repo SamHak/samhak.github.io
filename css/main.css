@@ -523,7 +523,7 @@ a {
 .languages__item {
   margin-right: 0.5625rem;
   color: #836c54;
-  font-size: 1.1875rem;
+  font-size: 1.375rem;
   transition: .5s; }
   .languages__item:hover {
     color: #e2cd91; }
@@ -552,7 +552,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 19px;
+  font-size: 22px;
   position: relative; }
   @media screen and (max-width: 768px) {
     .header__menus {
