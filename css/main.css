@@ -409,7 +409,7 @@ body {
   overflow: hidden; }
   @media screen and (max-width: 480px) {
     .wrapper:after {
-      height: 85px; } }
+      height: 88px; } }
 
 .footer {
   position: relative;
@@ -417,8 +417,8 @@ body {
   margin-top: -193px; }
   @media screen and (max-width: 480px) {
     .footer {
-      margin-top: -85px;
-      height: 85px; } }
+      margin-top: -88px;
+      height: 88px; } }
 
 .container {
   margin: 0 auto;
