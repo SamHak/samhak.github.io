@@ -458,7 +458,11 @@ a {
       min-height: 450px; } }
 
 .header {
+  font-size: 22px;
   font-family: a_PresentumNr, Arial; }
+  @media screen and (max-width: 1370px) {
+    .header {
+      font-size: 18px; } }
 
 .header__top {
   display: flex;
@@ -502,7 +506,6 @@ a {
 
 .header__menu_list {
   transition: .5s;
-  font-size: 19px;
   white-space: nowrap;
   top: 0;
   left: -400px;
@@ -523,13 +526,9 @@ a {
 .languages__item {
   margin-right: 0.5625rem;
   color: #836c54;
-  font-size: 1.375rem;
   transition: .5s; }
   .languages__item:hover {
     color: #e2cd91; }
-  @media screen and (max-width: 1370px) {
-    .languages__item {
-      font-size: 18px; } }
 
 .header__middle {
   display: flex;
@@ -552,7 +551,6 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 22px;
   position: relative; }
   @media screen and (max-width: 768px) {
     .header__menus {
