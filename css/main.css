@@ -407,6 +407,9 @@ body {
   display: block;
   height: 193px;
   overflow: hidden; }
+  @media screen and (max-width: 768px) {
+    .wrapper:after {
+      height: 145px; } }
   @media screen and (max-width: 480px) {
     .wrapper:after {
       height: 88px; } }
@@ -415,6 +418,10 @@ body {
   position: relative;
   height: 193px;
   margin-top: -193px; }
+  @media screen and (max-width: 768px) {
+    .footer {
+      margin-top: -145px;
+      height: 145px; } }
   @media screen and (max-width: 480px) {
     .footer {
       margin-top: -88px;
@@ -757,6 +764,9 @@ a {
     order: 2; }
   .product__item:nth-child(2n) .product__right {
     order: 1; }
+  @media screen and (max-width: 768px) {
+    .product__item {
+      margin-bottom: 20px; } }
   @media screen and (max-width: 480px) {
     .product__item {
       margin-bottom: 10px; } }
@@ -833,6 +843,10 @@ a {
 .footer__left {
   text-align: center;
   margin-top: 0.6875rem; }
+  @media screen and (max-width: 768px) {
+    .footer__left {
+      max-width: 140px;
+      font-size: 12px; } }
   @media screen and (max-width: 480px) {
     .footer__left {
       max-width: 100px;
@@ -846,6 +860,10 @@ a {
     .footer__logo {
       width: 10.625rem;
       height: 5.3125rem; } }
+  @media screen and (max-width: 768px) {
+    .footer__logo {
+      width: 116px;
+      height: 70px; } }
   @media screen and (max-width: 480px) {
     .footer__logo {
       width: 65px;
@@ -861,6 +879,9 @@ a {
 .footer__middle {
   margin-top: 24px;
   font-size: 20px; }
+  @media screen and (max-width: 768px) {
+    .footer__middle {
+      font-size: 14px; } }
   @media screen and (max-width: 480px) {
     .footer__middle {
       font-size: 8px; } }
@@ -872,6 +893,10 @@ a {
 
 .footer__item {
   margin-left: 1.875rem; }
+  @media screen and (max-width: 768px) {
+    .footer__item {
+      margin-left: 0;
+      margin-right: 10px; } }
   @media screen and (max-width: 480px) {
     .footer__item {
       margin-left: 0;
@@ -907,22 +932,17 @@ a {
   transition: .5s; }
   .footer__facebook:hover {
     box-shadow: 0 0 2px 2px #ffffff; }
+  @media screen and (max-width: 768px) {
+    .footer__facebook {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 1.75rem; } }
   @media screen and (max-width: 480px) {
     .footer__facebook {
       width: 24px;
       height: 24px;
       line-height: 24px;
       font-size: 0.75rem; } }
-
-@media screen and (orientation: landscape) and (min-width: 568px) {
-  .footer__left {
-    width: 166px; }
-
-  .footer__list {
-    font-size: 18px; }
-
-  .footer__item {
-    margin-left: 0;
-    margin-right: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
