@@ -914,4 +914,15 @@ a {
       line-height: 24px;
       font-size: 0.75rem; } }
 
+@media screen and (orientation: landscape) and (min-width: 568px) {
+  .footer__left {
+    width: 166px; }
+
+  .footer__list {
+    font-size: 18px; }
+
+  .footer__item {
+    margin-left: 0;
+    margin-right: 10px; } }
+
 /*# sourceMappingURL=main.css.map */
