@@ -529,7 +529,8 @@ a {
   top: 0;
   left: -400px;
   border-radius: 15px;
-  background-color: rgba(226, 205, 145, 0.5);
+  background-color: rgba(226, 205, 145, 0.2);
+  color: #836C54;
   position: absolute;
   padding: 10px 20px; }
   @media screen and (max-width: 480px) {
