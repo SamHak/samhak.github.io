@@ -502,7 +502,7 @@ a {
 
 .header__menu_list {
   transition: .5s;
-  font-size: 18px;
+  font-size: 19px;
   white-space: nowrap;
   top: 0;
   left: -400px;
@@ -523,7 +523,7 @@ a {
 .languages__item {
   margin-right: 0.5625rem;
   color: #836c54;
-  font-size: 1.125rem;
+  font-size: 1.1875rem;
   transition: .5s; }
   .languages__item:hover {
     color: #e2cd91; }
@@ -552,7 +552,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 19px;
   position: relative; }
   @media screen and (max-width: 768px) {
     .header__menus {
